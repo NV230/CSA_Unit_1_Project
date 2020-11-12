@@ -14,6 +14,7 @@ public class test extends Actor
      */
     public void act() 
     {
+        move (40);
         // Add your action code here.
     }    
 }
