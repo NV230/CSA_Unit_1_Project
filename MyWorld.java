@@ -81,8 +81,8 @@ public class MyWorld extends World
         }
         
         // showText is a buit in method which shows variables.
-        // timer is divided by fifty to mirror what an actual second looks like.
+        // timer is divided by sixty to mirror what an actual second looks like.
         // 80 & 20 are coordinates
-        showText("Seconds: " + timer/50, 80, 20);
+        showText("Seconds: " + timer/60, 80, 20);
     }
 }
