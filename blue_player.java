@@ -18,7 +18,7 @@ public class blue_player extends Actor
         if (isAtEdge()) {
            turn(180); 
         }
-        
+        // Need to group these actors
         // Add your action code here.
     }    
 }
