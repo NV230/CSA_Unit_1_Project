@@ -1,17 +1,23 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.ArrayList;  // Imports array so we can group objects (players)
+import java.util.Scanner;
+
 /**
  * Write a description of class MyWorld here.
  * 
  * @author Nibodh, Yash, Tameem, Shahil
  * @version 1.0
  */
-public class MyWorld extends World
-{
+public class MyWorld extends World 
+{ 
+    
     /**
      * Constructor for objects of class MyWorld.
      * 
      */
+    
+    private int timer;
+    
     ArrayList <red_player> red_list = new ArrayList <red_player>(); // Idk if this works
     red_player play1 = new red_player();
     red_player play2 = new red_player();
@@ -66,5 +72,17 @@ public class MyWorld extends World
         addObject(blue8, 570, 170); 
         addObject(blue9, 570, 140); 
         addObject(blue10, 530, 250); // linebacker
+    }
+    
+    public void act(){
+        if (timer>=0)
+        {
+            timer++;
+        }
+        
+        // showText is a buit in method which shows variables.
+        // timer is divided by fifty to mirror what an actual second looks like.
+        // 80 & 20 are coordinates
+        showText("Seconds: " + timer/50, 80, 20);
     }
 }

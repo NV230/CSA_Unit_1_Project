@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class blue_player here.
  * 
- * @author Nibodh, Yash, shahil, Tameem 
+ * @author Nibodh, Yash, Shahil, Tameem 
  * @version 1.0
  */
 public class blue_player extends Actor
