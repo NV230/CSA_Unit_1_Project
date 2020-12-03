@@ -16,7 +16,7 @@ public class MyWorld extends World
      * 
      */
     
-    private int timer;
+    public int timer;
     
     ArrayList <red_player> red_list = new ArrayList <red_player>(); // Idk if this works
     red_player play1 = new red_player();
@@ -47,6 +47,7 @@ public class MyWorld extends World
         // Create a new world with 800x500 cells with a cell size of 1x1 pixels.
         super(800, 500, 1);
         prepare();
+        
     }
     
     private void prepare()
@@ -60,7 +61,9 @@ public class MyWorld extends World
         addObject(play7,600, 360); //receiver
         addObject(play8, 600, 170); //receiver
         addObject(play9, 600, 140); //receiver
+        
         addObject(play10, 645, 250); //quarterback
+        
         
         addObject(blue1,570, 250);
         addObject(blue2,570, 270);
@@ -72,17 +75,15 @@ public class MyWorld extends World
         addObject(blue8, 570, 170); 
         addObject(blue9, 570, 140); 
         addObject(blue10, 530, 250); // linebacker
+        
+        
+        
     }
     
     public void act(){
-        if (timer>=0)
-        {
-            timer++;
-        }
-        
         // showText is a buit in method which shows variables.
         // timer is divided by sixty to mirror what an actual second looks like.
         // 80 & 20 are coordinates
-        showText("Seconds: " + timer/60, 80, 20);
+        
     }
 }

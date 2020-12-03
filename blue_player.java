@@ -12,11 +12,25 @@ public class blue_player extends Actor
      * Act - do whatever the blue_player wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act() 
+    public int getRandomNumber(int start,int end)
     {
-        move(-40);
-        if (isAtEdge()) {
-           turn(180); 
+       int normal = Greenfoot.getRandomNumber(end-start+1);
+       return normal+start;
+    }
+    public void act() 
+    
+    {
+         if (!isAtEdge()){
+            int distance = getRandomNumber(70, 100);
+            System.out.println(distance + " units");
+            move(-distance);
+            Greenfoot.delay(20);
+    }
+        
+        else{
+            
+            
+            Greenfoot.stop();
         }
         // Need to group these actors
         // Add your action code here.

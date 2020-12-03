@@ -14,15 +14,32 @@ public class red_player extends Actor
      */
     
     
+    private int timer;
+    public int getRandomNumber(int start,int end)
+    {
+       int normal = Greenfoot.getRandomNumber(end-start+1);
+       return normal+start;
+    }
     
     public void act() 
     {
         // Add your action code here.
-        // Make sure to group these actors
+        if (timer>=0)
+            {
+                timer++;
+            }
         
-        move(-30);
-        if (isAtEdge()) {
-           turn(180); 
+        if (!isAtEdge()){
+        int distance = getRandomNumber(70, 100);
+        System.out.println(distance + " units");
+        move(-distance);
+        Greenfoot.delay(20);
+    }
+        
+        else{
+            getWorld().showText("Seconds: " + timer, 400,  200);
+            getWorld().showText("Congrats You Win", 400, 250);
+            Greenfoot.stop();
         }
     }    
 }
