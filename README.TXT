@@ -1,12 +1,7 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
 
-PROJECT TITLE: Football Math Game
-PURPOSE OF PROJECT: Project for AP CSA
-VERSION or DATE: 10/11/2020
-HOW TO START THIS PROJECT: Create all the actors and start to work on question formulation.
-AUTHORS: Nibodh Vallapureddy, Yash Bansal, Tameem Saydi, & Shahil Patel
-USER INSTRUCTIONS: Solve the questions.
+PROJECT TITLE: Overtime
+PURPOSE OF PROJECT: Unit 1 Project for AP CSA
+VERSION or DATE: 12/04/2020
+HOW TO START THIS PROJECT: Clone the repository to your computer and open up the project.greenfoot file.
+AUTHORS: Yash Bansal, Shahil Patel, Tameem Saydi, & Nibodh Vallapureddy
+USER INSTRUCTIONS: Solve the questions to win the game.

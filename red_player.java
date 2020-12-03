@@ -192,7 +192,7 @@ public class Red_Player extends Red_Team {
                     numberCorrect++;
                     
                     if (getX() <= 112) {
-                       System.out.println("Congrats. You made a touchdown.");
+                       System.out.println("Congrats. You won the game.");
                        getWorld().showText(("Problems Correct: " + String.valueOf(numberCorrect)+"/"+String.valueOf(questionNumber)), 130, 20);
                        questionNumber = 0;
                     }
