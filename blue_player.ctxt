@@ -1,7 +1,6 @@
 #BlueJ class context
-comment0.target=blue_player
-comment0.text=\n\ Write\ a\ description\ of\ class\ blue_player\ here.\n\ \n\ @author\ Nibodh,\ Yash,\ shahil,\ Tameem\ \n\ @version\ 1.0\n
-comment1.params=
-comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ blue_player\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment0.target=Blue_Player
+comment0.text=\r\n\ Blue_Player\ class\r\n\ \r\n\ @author\ Nibodh,\ Yash,\ Shahil,\ Tameem\ \r\n\ @version\ 1.0\r\n
+comment1.params=h\ v
+comment1.target=Blue_Player(int,\ int)
 numComments=2
