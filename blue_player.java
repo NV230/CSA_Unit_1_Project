@@ -1,13 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.util.ArrayList; //Imports ArrayLists
 
 /**
- * Write a description of class blue_player here.
+ * Blue_Player class
  * 
  * @author Nibodh, Yash, Shahil, Tameem 
  * @version 1.0
  */
-public class blue_player extends Actor
+public class Blue_Player extends Blue_Team
 {
+<<<<<<< HEAD
     /**
      * Act - do whatever the blue_player wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -35,4 +37,12 @@ public class blue_player extends Actor
         // Need to group these actors
         // Add your action code here.
     }    
+=======
+    //incorporates parameters for x and y coordinates
+    public Blue_Player(int h, int v) {
+        xLoc=h;
+        yLoc=v;
+        
+    }
+>>>>>>> 77a6ffed8dca56feee9e035f00a317bde7527104
 }

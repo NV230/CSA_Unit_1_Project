@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Blue_Team
+comment0.text=\r\n\ Blue_Team\ Class\r\n\ \r\n\ @author\ Nibodh,\ Yash,\ Tameem,\ Shahil\r\n\ @version\ 1.0\r\n
+comment1.params=x
+comment1.target=void\ setXPos(int)
+comment2.params=y
+comment2.target=void\ setYPos(int)
+comment3.params=
+comment3.target=int\ getXPos()
+comment4.params=
+comment4.target=int\ getYPos()
+comment5.params=
+comment5.target=void\ readyUp()
+numComments=6
