@@ -1,22 +1,11 @@
 #Greenfoot project file
 class.Blue_Player.image=blue_team.png
 class.MyWorld.image=football_field.jpg
-class.Red_Player.image=red_team_Copy.png
+class.Red_Player.image=red_team.png
 dependency1.from=MyWorld
 dependency1.to=Red_Player
 dependency1.type=UsesDependency
 dependency2.from=MyWorld
-<<<<<<< HEAD
-dependency2.to=blue_player
-dependency2.type=UsesDependency
-editor.fx.0.height=756
-editor.fx.0.width=825
-editor.fx.0.x=4
-editor.fx.0.y=25
-height=651
-package.numDependencies=2
-package.numTargets=3
-=======
 dependency2.to=Blue_Player
 dependency2.type=UsesDependency
 dependency3.from=Red_Team
@@ -28,14 +17,13 @@ dependency4.type=UsesDependency
 dependency5.from=Blue_Team
 dependency5.to=MyWorld
 dependency5.type=UsesDependency
-editor.fx.0.height=838
-editor.fx.0.width=1550
-editor.fx.0.x=-7
-editor.fx.0.y=-7
+editor.fx.0.height=728
+editor.fx.0.width=800
+editor.fx.0.x=440
+editor.fx.0.y=104
 height=838
 package.numDependencies=5
 package.numTargets=5
->>>>>>> 77a6ffed8dca56feee9e035f00a317bde7527104
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -49,12 +37,12 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
-simulation.speed=72
+simulation.speed=51
 target1.height=50
 target1.name=Red_Player
 target1.showInterface=false
 target1.type=ClassTarget
-target1.width=110
+target1.width=120
 target1.x=0
 target1.y=0
 target2.height=50
@@ -86,14 +74,7 @@ target5.width=80
 target5.x=0
 target5.y=0
 version=3.0.0
-<<<<<<< HEAD
-width=1047
-world.lastInstantiated=MyWorld
-xPosition=728
-yPosition=30
-=======
 width=1550
 world.lastInstantiated=MyWorld
 xPosition=0
-yPosition=0
->>>>>>> 77a6ffed8dca56feee9e035f00a317bde7527104
+yPosition=25

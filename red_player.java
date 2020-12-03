@@ -1,4 +1,3 @@
-
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.Scanner; //Imports scanner for user input in terminal
 import java.util.List; //Imports Lists
@@ -466,34 +465,6 @@ public class Red_Player extends Red_Team {
         }
     }
     
-<<<<<<< HEAD
-    private int timer;
-    public int getRandomNumber(int start,int end)
-    {
-       int normal = Greenfoot.getRandomNumber(end-start+1);
-       return normal+start;
-    }
-    
-    public void act() 
-    {
-        // Add your action code here.
-        if (timer>=0)
-            {
-                timer++;
-            }
-        
-        if (!isAtEdge()){
-        int distance = getRandomNumber(70, 100);
-        System.out.println(distance + " units");
-        move(-distance);
-        Greenfoot.delay(20);
-    }
-        
-        else{
-            getWorld().showText("Seconds: " + timer, 400,  200);
-            getWorld().showText("Congrats You Win", 400, 250);
-            Greenfoot.stop();
-=======
     //Makes a gaining yards transition for every Red_Player object
     public void gainYards(int yards) {
         List<Red_Player> red_players = getWorld().getObjects(Red_Player.class);
@@ -504,7 +475,6 @@ public class Red_Player extends Red_Team {
                     Greenfoot.delay(1);
                 }
             }
->>>>>>> 77a6ffed8dca56feee9e035f00a317bde7527104
         }
     }
     

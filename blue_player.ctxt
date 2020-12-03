@@ -1,17 +1,6 @@
 #BlueJ class context
-<<<<<<< HEAD
-comment0.target=blue_player
-comment0.text=\n\ Write\ a\ description\ of\ class\ blue_player\ here.\n\ \n\ @author\ Nibodh,\ Yash,\ Shahil,\ Tameem\ \n\ @version\ 1.0\n
-comment1.params=start\ end
-comment1.target=int\ getRandomNumber(int,\ int)
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ blue_player\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-comment2.params=
-comment2.target=void\ act()
-numComments=3
-=======
 comment0.target=Blue_Player
-comment0.text=\r\n\ Blue_Player\ class\r\n\ \r\n\ @author\ Nibodh,\ Yash,\ Shahil,\ Tameem\ \r\n\ @version\ 1.0\r\n
+comment0.text=\n\ Blue_Player\ class\n\ \n\ @author\ Nibodh,\ Yash,\ Shahil,\ Tameem\ \n\ @version\ 1.0\n
 comment1.params=h\ v
 comment1.target=Blue_Player(int,\ int)
 numComments=2
->>>>>>> 77a6ffed8dca56feee9e035f00a317bde7527104

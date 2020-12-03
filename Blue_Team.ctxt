@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Blue_Team
-comment0.text=\r\n\ Blue_Team\ Class\r\n\ \r\n\ @author\ Nibodh,\ Yash,\ Tameem,\ Shahil\r\n\ @version\ 1.0\r\n
+comment0.text=\n\ Blue_Team\ Class\n\ \n\ @author\ Nibodh,\ Yash,\ Tameem,\ Shahil\n\ @version\ 1.0\n
 comment1.params=x
 comment1.target=void\ setXPos(int)
 comment2.params=y

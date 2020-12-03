@@ -1,38 +1,17 @@
-
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.ArrayList;  // Imports array so we can group objects (players)
-import java.util.Scanner;
-
 /**
  * MyWorld Class
  * 
  * @author Nibodh, Yash, Tameem, Shahil
  * @version 1.0
  */
-public class MyWorld extends World 
-{ 
-    
+public class MyWorld extends World
+{
     /**
      * Constructor for objects of class MyWorld.
      * 
      */
-<<<<<<< HEAD
-    
-    public int timer;
-    
-    ArrayList <red_player> red_list = new ArrayList <red_player>(); // Idk if this works
-    red_player play1 = new red_player();
-    red_player play2 = new red_player();
-    red_player play3 = new red_player();
-    red_player play4 = new red_player();
-    red_player play5 = new red_player();
-    red_player play6 = new red_player();
-    red_player play7 = new red_player();
-    red_player play8 = new red_player();
-    red_player play9 = new red_player();
-    red_player play10 = new red_player();
-=======
->>>>>>> 77a6ffed8dca56feee9e035f00a317bde7527104
     
     ArrayList<Red_Player> red_list = new ArrayList<Red_Player>(); // List of red players(Us)
     
@@ -43,45 +22,9 @@ public class MyWorld extends World
         // Create a new world with 800x500 cells with a cell size of 1x1 pixels.
         super(800, 500, 1);
         prepare();
-        
     }
     private void prepare()
     {
-<<<<<<< HEAD
-        addObject(play1,600, 250);
-        addObject(play2,600, 270);
-        addObject(play3, 600, 290);
-        addObject(play4, 600, 230);
-        addObject(play5, 600, 210);
-        addObject(play6,600, 330); //receiver
-        addObject(play7,600, 360); //receiver
-        addObject(play8, 600, 170); //receiver
-        addObject(play9, 600, 140); //receiver
-        
-        addObject(play10, 645, 250); //quarterback
-        
-        
-        addObject(blue1,570, 250);
-        addObject(blue2,570, 270);
-        addObject(blue3,570, 290);
-        addObject(blue4,570, 230);
-        addObject(blue5,570, 210);
-        addObject(blue6,570, 330); 
-        addObject(blue7,570, 360); 
-        addObject(blue8, 570, 170); 
-        addObject(blue9, 570, 140); 
-        addObject(blue10, 530, 250); // linebacker
-        
-        
-        
-    }
-    
-    public void act(){
-        // showText is a buit in method which shows variables.
-        // timer is divided by sixty to mirror what an actual second looks like.
-        // 80 & 20 are coordinates
-        
-=======
         //Instantiating Red1
         Red_Player red1 = new Red_Player(1,688,250);
         addObject(red1,688, 250);
@@ -191,6 +134,5 @@ public class MyWorld extends World
         Blue_Player blue10 = new Blue_Player(618,250);
         addObject(blue10, 618, 250); // Quarterback
         blue_list.add(blue10);
->>>>>>> 77a6ffed8dca56feee9e035f00a317bde7527104
     }
 }

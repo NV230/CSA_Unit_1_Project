@@ -1,10 +1,8 @@
 #BlueJ class context
 comment0.target=MyWorld
-comment0.text=\r\n\ MyWorld\ Class\r\n\ \r\n\ @author\ Nibodh,\ Yash,\ Tameem,\ Shahil\r\n\ @version\ 1.0\r\n
+comment0.text=\n\ MyWorld\ Class\n\ \n\ @author\ Nibodh,\ Yash,\ Tameem,\ Shahil\n\ @version\ 1.0\n
 comment1.params=
 comment1.target=MyWorld()
 comment2.params=
 comment2.target=void\ prepare()
-comment3.params=
-comment3.target=void\ act()
-numComments=4
+numComments=3
